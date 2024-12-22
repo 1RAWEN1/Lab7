@@ -67,21 +67,21 @@ export default {
   },
   setup() {
     const fotos = ref([
-      "@image/photo_image3.jpeg",
-    "@image/photo_image6.jpg",
-    "@image/photo_image2.jpg",
-    "@image/photo_image9.jpg",
-    "@image/photo_image1.jpg",
-    "@image/photo_image10.jpg",
-    "@image/photo_image7.jpg",
-    "@image/photo_image8.jpg",
-    "@image/photo_image4.jpg",
-    "@image/photo_image11.jpg",
-    "@image/photo_image12.jpg",
-    "@image/photo_image5.jpg",
-    "@image/photo_image13.jpg",
-    "@image/photo_image14.jpg",
-    "@image/photo_image15.jpg"
+      "@/assets/gal/photo_image3.jpeg",
+    "@/assets/gal/photo_image6.jpg",
+    "@/assets/gal/photo_image2.jpg",
+    "@/assets/gal/photo_image9.jpg",
+    "@/assets/gal/photo_image1.jpg",
+    "@/assets/gal/photo_image10.jpg",
+    "@/assets/gal/photo_image7.jpg",
+    "@/assets/gal/photo_image8.jpg",
+    "@/assets/gal/photo_image4.jpg",
+    "@/assets/gal/photo_image11.jpg",
+    "@/assets/gal/photo_image12.jpg",
+    "@/assets/gal/photo_image5.jpg",
+    "@/assets/gal/photo_image13.jpg",
+    "@/assets/gal/photo_image14.jpg",
+    "@/assets/gal/photo_image15.jpg"
     ]);
     const titles = ref([
 "Озеро Байкал",
