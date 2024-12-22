@@ -41,13 +41,6 @@
           <img src="@/assets/httyd.png" alt="barton fink" />
           <p>Как приручить дракона</p>
         </li>
-        <li>
-          <img
-            src="@/assets/No_Country_for_Old_Men_poster.jpg"
-            alt="no country"
-          />
-          <p>No country for old man</p>
-        </li>
       </ul>
     </section>
 
