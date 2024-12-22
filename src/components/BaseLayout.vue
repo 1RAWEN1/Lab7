@@ -164,24 +164,24 @@ export default {
         history: false,
       },
       icons: {
-        home: require("../assets/svg/house.svg"),
-        about: require("../assets/svg/man.svg"),
-        gallery: require("../assets/svg/camera.svg"),
-        hobby: require("../assets/svg/tongue.svg"),
-        university: require("../assets/svg/book.svg"),
-        contact: require("../assets/svg/phone.svg"),
-        test: require("../assets/svg/pencil.svg"),
-        history: require("../assets/svg/history.svg"),
+        home: require("../assets/logo/main.png"),
+        about: require("../assets/logo/aboutMe.png"),
+        gallery: require("../assets/logo/gallery.png"),
+        hobby: require("../assets/logo/hobby.png"),
+        university: require("../assets/study.png"),
+        contact: require("../assets/logo/contact.png"),
+        test: require("../assets/logo/test.png"),
+        history: require("../assets/logo/history.png"),
       },
       hoverIcons: {
-        home: require("../assets/svg/house_hover.svg"),
-        about: require("../assets/svg/man_hover.svg"),
-        gallery: require("../assets/svg/camera_hover.svg"),
-        hobby: require("../assets/svg/tongue_hover.svg"),
-        university: require("../assets/svg/book_hover.svg"),
-        contact: require("../assets/svg/phone_hover.svg"),
-        test: require("../assets/svg/pencil_hover.svg"),
-        history: require("../assets/svg/history_hover.svg"),
+        home: require("../assets/logo/main2.png"),
+        about: require("../assets/logo/aboutMe2.png"),
+        gallery: require("../assets/logo/gallery2.png"),
+        hobby: require("../assets/logo/hobby2.png"),
+        university: require("../assets/study2.png"),
+        contact: require("../assets/logo/contact2.png"),
+        test: require("../assets/logo/test2.png"),
+        history: require("../assets/logo/history2.png"),
       },
 
       timeString: "",
@@ -445,7 +445,7 @@ header nav ul a:hover {
 }
 
 header {
-  background-color: #126e1a;
+  background-color: #ff7f00;
   color: #fff;
   padding: 1rem;
 }

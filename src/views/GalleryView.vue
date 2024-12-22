@@ -67,23 +67,39 @@ export default {
   },
   setup() {
     const fotos = ref([
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
-      "pic1.jpg",
+      "image/photo_image3.jpeg",
+    "image/photo_image6.jpg",
+    "image/photo_image2.jpg",
+    "image/photo_image9.jpg",
+    "image/photo_image1.jpg",
+    "image/photo_image10.jpg",
+    "image/photo_image7.jpg",
+    "image/photo_image8.jpg",
+    "image/photo_image4.jpg",
+    "image/photo_image11.jpg",
+    "image/photo_image12.jpg",
+    "image/photo_image5.jpg",
+    "image/photo_image13.jpg",
+    "image/photo_image14.jpg",
+    "image/photo_image15.jpg"
     ]);
-    const titles = ref(Array(15).fill("Стейк"));
+    const titles = ref([
+"Озеро Байкал",
+    "Западное озеро",
+    "Озеро Шлегайс",
+    "Озеро Кратер",
+    "Озеро Морейн",
+    "Мертвое море",
+    "Озеро Цзюджайгоу",
+    "Озеро Хинтерзее",
+    "Озеро Куокансуо",
+    "Озеро Морское окно",
+    "Озеро Марун",
+    "Озеро Онтарио",
+    "Озеро Сейдозеро",
+    "Озеро Каменное",
+    "Озеро Грюнер"
+    ]);
     const popupVisible = ref(false);
     const popupImage = ref({ src: "", title: "" });
 

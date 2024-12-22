@@ -12,47 +12,20 @@
 
     <section id="hobby">
       <h2>Мое хобби</h2>
-      <p>Я увлекаюсь языками. Люблю учить новые для меня языки.</p>
+      <p>Хобби: Разработка компьютерных игр</p>
+        <p>Описание: В свободное время люблю разрабатывать небольшие игровые проекты. Механики беру либо из других игр, либо придумываю новые.</p>
     </section>
 
     <section id="books">
       <h2>Мои любимые книги</h2>
       <ul>
         <li>
-          <img src="@/assets/fin.webp" alt="finnigans wake" />
-          <p>Поминки по Финнигану</p>
+          <img src="@/assets/interes1.png" alt="finnigans wake" />
+          <p>Жюль Верн 'Двадцать тысяц лье под водой'</p>
         </li>
         <li>
-          <img src="@/assets/lord.webp" alt="lord of the rings" />
-          <p>Властелин колец</p>
-        </li>
-        <li>
-          <img src="@/assets/hobbit.webp" alt="hobbit" />
-          <p>Хоббит</p>
-        </li>
-      </ul>
-    </section>
-
-    <section id="music">
-      <h2>Моя любимая музыка</h2>
-      <ul>
-        <li>
-          <img
-            src="@/assets/Steel_panther_feel_the_steel.jpg"
-            alt="steel panther"
-          />
-          <p>Feel the steel</p>
-        </li>
-        <li>
-          <img
-            src="@/assets/Type_O_Negative_-_Slow,_Deep_And_Hard.jpg"
-            alt="type o"
-          />
-          <p>Slow, Deep and Hard</p>
-        </li>
-        <li>
-          <img src="@/assets/ModernPain.jpg" alt="corb lund" />
-          <p>Modern pain</p>
+          <img src="@/assets/interes2.jpg" alt="lord of the rings" />
+          <p>Жюль Верн 'Таинственный остров'</p>
         </li>
       </ul>
     </section>
@@ -61,12 +34,12 @@
       <h2>Мои любимые фильмы</h2>
       <ul>
         <li>
-          <img src="@/assets/Fargo.jpg" alt="fargo" />
-          <p>Fargo</p>
+          <img src="@/assets/avatar.webp" alt="fargo" />
+          <p>Аватар (2009)</p>
         </li>
         <li>
-          <img src="@/assets/BartonFink.jpg" alt="barton fink" />
-          <p>Barton Fink</p>
+          <img src="@/assets/httyd.png" alt="barton fink" />
+          <p>Как приручить дракона</p>
         </li>
         <li>
           <img
@@ -76,6 +49,12 @@
           <p>No country for old man</p>
         </li>
       </ul>
+    </section>
+
+    <section id="music">
+      <h2>Моя любимая музыка</h2>
+      <p>1) Pharrell Williams 'Hadivdivy'</p>
+      <p>2) Fleetwood Mac 'The Chain'</p>
     </section>
   </base-layout>
 </template>
