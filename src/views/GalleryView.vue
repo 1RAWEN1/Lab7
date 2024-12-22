@@ -181,6 +181,13 @@ export default {
   gap: 50px;
 }
 
+.gallery__img-thumb__img {
+  width: 150px; /* Установите желаемую ширину */
+  height: 150px; /* Установите желаемую высоту */
+  object-fit: cover; /* Обрезка изображения до квадрата */
+  border-radius: 10px; /* Для создания закругленных углов, если необходимо */
+}
+
 .gallery__img-thumb {
   width: 100%;
   height: auto;
